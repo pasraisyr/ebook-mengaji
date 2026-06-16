@@ -167,8 +167,10 @@ Status: Pembayaran Berjaya (Rujukan Bil: ${billCode})`;
         // Redirect to local mock payment portal
         window.location.href = window.location.origin + window.location.pathname + '?mock_payment=true';
       } else {
-        // Redirect to real ToyyibPay Bill Link
-        window.location.href = billUrl;
+        // Redirect to real ToyyibPay Bill Link with prefilled customer details
+        const separator = billUrl.includes('?') ? '&' : '?';
+        const prefilledUrl = `${billUrl}${separator}billTo=${encodeURIComponent(name)}&billEmail=${encodeURIComponent(email)}&billPhone=${encodeURIComponent(phone)}`;
+        window.location.href = prefilledUrl;
       }
     }, 800);
   };
