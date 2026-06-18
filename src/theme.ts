@@ -15,7 +15,7 @@ const theme = createTheme({
       contrastText: '#073835', // Dark green text for contrast
     },
     background: {
-      default: '#fcfef5', // Very pale yellow-green background
+      default: '#FAFFA3', // Light Yellow/Green background
       paper: '#ffffff',
     },
     text: {

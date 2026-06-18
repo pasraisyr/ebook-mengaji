@@ -208,7 +208,7 @@ function App() {
       {/* 2. Hero Section */}
       <Box 
         sx={{ 
-          background: 'linear-gradient(180deg, #f3faea 0%, #fcfef5 100%)', 
+          bgcolor: 'background.default', 
           pt: { xs: 6, md: 10 }, 
           pb: { xs: 8, md: 12 },
           position: 'relative',
@@ -662,7 +662,7 @@ function App() {
           bgcolor: 'background.paper', 
           borderTop: '1px solid #d5e3c8',
           borderBottom: '1px solid #d5e3c8',
-          background: 'linear-gradient(180deg, #ffffff 0%, #f3faea 100%)'
+          background: 'linear-gradient(180deg, #ffffff 0%, #FAFFA3 100%)'
         }}
       >
         <Container maxWidth="lg">
