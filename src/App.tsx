@@ -662,7 +662,7 @@ function App() {
           bgcolor: 'background.paper', 
           borderTop: '1px solid #d5e3c8',
           borderBottom: '1px solid #d5e3c8',
-          background: 'linear-gradient(180deg, #ffffff 0%, #FAFFA3 100%)'
+          background: 'linear-gradient(180deg, #ffffff 0%, #f4fcd2 100%)'
         }}
       >
         <Container maxWidth="lg">
