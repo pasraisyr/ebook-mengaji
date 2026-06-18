@@ -85,7 +85,7 @@ export const AudioDemo: React.FC = () => {
   };
 
   return (
-    <Card sx={{ background: 'linear-gradient(135deg, #4a0a17 0%, #701a2c 100%)', color: '#fff', overflow: 'visible', position: 'relative' }}>
+    <Card sx={{ background: 'linear-gradient(135deg, #4a0a17 0%, #073835 100%)', color: '#fff', overflow: 'visible', position: 'relative' }}>
       <CardContent sx={{ p: { xs: 3, md: 5 } }}>
         <Grid container spacing={4} sx={{ alignItems: 'center' }}>
           <Grid size={{ xs: 12, lg: 5 }}>
@@ -154,7 +154,7 @@ export const AudioDemo: React.FC = () => {
                       sx={{ 
                         p: 2, 
                         borderRadius: 3, 
-                        background: isCurrentPlaying ? 'rgba(178, 127, 102, 0.15)' : 'rgba(255, 255, 255, 0.05)',
+                        background: isCurrentPlaying ? 'rgba(102, 212, 126, 0.15)' : 'rgba(255, 255, 255, 0.05)',
                         border: isCurrentPlaying ? `1px solid ${theme.palette.secondary.main}` : '1px solid rgba(255, 255, 255, 0.05)',
                         transition: 'all 0.3s ease',
                         display: 'flex',

@@ -3,24 +3,24 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#701a2c', // Rich Maroon
-      light: '#a0354e', // Soft Maroon
-      dark: '#4a0a17', // Deep Maroon
+      main: '#073835', // Dark Green
+      light: '#66D47E', // Medium Green
+      dark: '#04201e', // Deeper Green
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#b27f66', // Elegant Warm Nude
-      light: '#d8b29c', // Soft Nude/Beige
-      dark: '#885740', // Deep Nude/Tan
-      contrastText: '#ffffff',
+      main: '#C6E772', // Light Green
+      light: '#FAFFA3', // Light Yellow/Green
+      dark: '#66D47E', // Medium Green
+      contrastText: '#073835', // Dark green text for contrast
     },
     background: {
-      default: '#faf6f3', // Cream / Light Nude Background
+      default: '#fcfef5', // Very pale yellow-green background
       paper: '#ffffff',
     },
     text: {
-      primary: '#2e1c18', // Very dark warm brown/black for better harmony
-      secondary: '#6b5752', // Soft warm grey-brown
+      primary: '#073835', // Dark green for primary text
+      secondary: '#4b635f', // Muted green for secondary text
     },
   },
   typography: {
@@ -79,7 +79,7 @@ const theme = createTheme({
           padding: '10px 24px',
           boxShadow: 'none',
           '&:hover': {
-            boxShadow: '0 4px 12px rgba(6, 78, 59, 0.15)',
+            boxShadow: '0 4px 12px rgba(7, 56, 53, 0.15)',
           },
         },
       },
@@ -87,22 +87,22 @@ const theme = createTheme({
         {
           props: { variant: 'contained', color: 'primary' },
           style: {
-            background: 'linear-gradient(135deg, #701a2c 0%, #a0354e 100%)',
+            background: 'linear-gradient(135deg, #073835 0%, #66D47E 100%)',
             border: 0,
             color: '#ffffff',
             '&:hover': {
-              background: 'linear-gradient(135deg, #4a0a17 0%, #701a2c 100%)',
+              background: 'linear-gradient(135deg, #04201e 0%, #073835 100%)',
             },
           },
         },
         {
           props: { variant: 'contained', color: 'secondary' },
           style: {
-            background: 'linear-gradient(135deg, #b27f66 0%, #d8b29c 100%)',
+            background: 'linear-gradient(135deg, #66D47E 0%, #C6E772 100%)',
             border: 0,
-            color: '#ffffff',
+            color: '#073835',
             '&:hover': {
-              background: 'linear-gradient(135deg, #885740 0%, #b27f66 100%)',
+              background: 'linear-gradient(135deg, #4aa05d 0%, #66D47E 100%)',
             },
           },
         },

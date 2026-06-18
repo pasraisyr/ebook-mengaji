@@ -138,7 +138,7 @@ export const EbookGallery: React.FC = () => {
                     left: 0,
                     right: 0,
                     bottom: 0,
-                    bgcolor: 'rgba(112, 26, 44, 0.4)',
+                    bgcolor: 'rgba(7, 56, 53, 0.4)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -151,7 +151,7 @@ export const EbookGallery: React.FC = () => {
                   </IconButton>
                 </Box>
               </CardActionArea>
-              <Box sx={{ p: 2, flexGrow: 0, borderTop: '1px solid #ebdcd3' }}>
+              <Box sx={{ p: 2, flexGrow: 0, borderTop: '1px solid #d5e3c8' }}>
                 <Typography variant="subtitle1" sx={{ fontWeight: 'bold', color: 'primary.main', mb: 0.5 }}>
                   {item.title}
                 </Typography>

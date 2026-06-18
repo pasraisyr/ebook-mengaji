@@ -13,7 +13,7 @@ interface FaqItem {
 const faqItems: FaqItem[] = [
   {
     question: "Siapa yang sesuai membaca eBook Home Tajwid ini?",
-    answer: "Ebook ini direka khas untuk ibu bapa yang bukan berlatarbelakangkan pendidikan agama (ustaz/ustazah) tetapi mahu membimbing anak-anak belajar tajwid di rumah. Ia juga sangat sesuai untuk golongan dewasa, remaja, atau sesiapa sahaja yang mahu membetulkan kesalahan bacaan tajwid yang sering berulang dengan penerangan yang ringkas."
+    answer: "Ebook ini direka khas untuk ibu bapa yang ingin mendidik anak-anak belajar tajwid di rumah. Ia juga sangat sesuai untuk golongan dewasa, remaja, atau sesiapa sahaja yang mahu membetulkan kesalahan bacaan tajwid yang sering berulang dengan penerangan yang ringkas."
   },
   {
     question: "Adakah ebook ini betul-betul ada audio sebutan di setiap halaman?",
@@ -61,7 +61,7 @@ export const FaqSection: React.FC = () => {
               sx={{ 
                 mb: 1.5, 
                 borderRadius: '12px !important',
-                border: '1px solid #ebdcd3',
+                border: '1px solid #d5e3c8',
                 boxShadow: isCurrentExpanded ? '0 8px 20px rgba(0,0,0,0.06)' : 'none',
                 '&::before': { display: 'none' }, // Remove default line divider
                 transition: 'all 0.2s ease',

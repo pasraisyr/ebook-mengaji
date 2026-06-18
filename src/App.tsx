@@ -157,7 +157,7 @@ function App() {
         sx={{ 
           bgcolor: 'rgba(255, 255, 255, 0.9)', 
           backdropFilter: 'blur(8px)',
-          borderBottom: '1px solid #ebdcd3',
+          borderBottom: '1px solid #d5e3c8',
           zIndex: 1100
         }}
       >
@@ -208,7 +208,7 @@ function App() {
       {/* 2. Hero Section */}
       <Box 
         sx={{ 
-          background: 'linear-gradient(180deg, #f7efe9 0%, #faf6f3 100%)', 
+          background: 'linear-gradient(180deg, #f3faea 0%, #fcfef5 100%)', 
           pt: { xs: 6, md: 10 }, 
           pb: { xs: 8, md: 12 },
           position: 'relative',
@@ -216,8 +216,8 @@ function App() {
         }}
       >
         {/* Decorative background shapes */}
-        <Box sx={{ position: 'absolute', top: -100, right: -100, width: 400, height: 400, borderRadius: '50%', bgcolor: 'rgba(112, 26, 44, 0.05)', filter: 'blur(80px)', zIndex: 0 }} />
-        <Box sx={{ position: 'absolute', bottom: -50, left: -50, width: 300, height: 300, borderRadius: '50%', bgcolor: 'rgba(178, 127, 102, 0.05)', filter: 'blur(80px)', zIndex: 0 }} />
+        <Box sx={{ position: 'absolute', top: -100, right: -100, width: 400, height: 400, borderRadius: '50%', bgcolor: 'rgba(7, 56, 53, 0.05)', filter: 'blur(80px)', zIndex: 0 }} />
+        <Box sx={{ position: 'absolute', bottom: -50, left: -50, width: 300, height: 300, borderRadius: '50%', bgcolor: 'rgba(102, 212, 126, 0.05)', filter: 'blur(80px)', zIndex: 0 }} />
 
         <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
           <Grid container spacing={6} sx={{ alignItems: 'center' }}>
@@ -231,7 +231,7 @@ function App() {
                     color: 'primary.light', 
                     fontWeight: 800, 
                     letterSpacing: 2, 
-                    bgcolor: 'rgba(112, 26, 44, 0.08)',
+                    bgcolor: 'rgba(7, 56, 53, 0.08)',
                     px: 2,
                     py: 0.8,
                     borderRadius: 5,
@@ -243,7 +243,7 @@ function App() {
                 </Typography>
                 
                 <Typography variant="h1" sx={{ color: 'primary.dark', mb: 2, lineHeight: 1.15 }}>
-                  Bantu Anak Kuasai Tajwid Dari Rumah Tanpa Perlu Jadi Ustaz/Ustazah
+                  Bantu Anak Kuasai Tajwid Dari Rumah 
                 </Typography>
                 
                 <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: '1.15rem', mb: 4, lineHeight: 1.7 }}>
@@ -255,7 +255,7 @@ function App() {
                   <Grid size={{ xs: 12, sm: 6 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
                       <CheckCircleIcon sx={{ color: 'success.main' }} />
-                      <Typography sx={{ fontWeight: 600, color: 'text.primary' }}>Sesuai untuk ibu bapa bukan ustaz/ustazah</Typography>
+                      <Typography sx={{ fontWeight: 600, color: 'text.primary' }}>Sesuai untuk ibu bapa mendidik anak-anak</Typography>
                     </Box>
                   </Grid>
                   <Grid size={{ xs: 12, sm: 6 }}>
@@ -289,7 +289,7 @@ function App() {
                       py: 1.8, 
                       px: 4, 
                       fontSize: '1.1rem', 
-                      boxShadow: '0 8px 25px rgba(178, 127, 102, 0.4)'
+                      boxShadow: '0 8px 25px rgba(102, 212, 126, 0.4)'
                     }}
                   >
                     Dapatkan eBook Sekarang
@@ -336,7 +336,7 @@ function App() {
       </Box>
 
       {/* 3. Pain Points Section */}
-      <Box sx={{ py: 8, bgcolor: 'background.paper', borderTop: '1px solid #ebdcd3', borderBottom: '1px solid #ebdcd3' }}>
+      <Box sx={{ py: 8, bgcolor: 'background.paper', borderTop: '1px solid #d5e3c8', borderBottom: '1px solid #d5e3c8' }}>
         <Container maxWidth="md">
           <Typography variant="h3" align="center" sx={{ fontWeight: 800, color: 'primary.dark', mb: 2 }}>
             Masalah Yang Sering Melanda Ibu Bapa...
@@ -347,7 +347,7 @@ function App() {
 
           <Grid container spacing={3}>
             <Grid size={{ xs: 12, sm: 4 }}>
-              <Paper variant="outlined" sx={{ p: 3, height: '100%', textAlign: 'center', borderRadius: 4, borderColor: '#ebdcd3', bgcolor: '#fdfbfb' }}>
+              <Paper variant="outlined" sx={{ p: 3, height: '100%', textAlign: 'center', borderRadius: 4, borderColor: '#d5e3c8', bgcolor: '#fdfbfb' }}>
                 <Avatar sx={{ bgcolor: 'rgba(239, 68, 68, 0.1)', color: 'error.main', mx: 'auto', mb: 2, width: 56, height: 56 }}>
                   <ErrorOutlineIcon fontSize="large" />
                 </Avatar>
@@ -360,20 +360,20 @@ function App() {
               </Paper>
             </Grid>
             <Grid size={{ xs: 12, sm: 4 }}>
-              <Paper variant="outlined" sx={{ p: 3, height: '100%', textAlign: 'center', borderRadius: 4, borderColor: '#ebdcd3', bgcolor: '#fdfbfb' }}>
+              <Paper variant="outlined" sx={{ p: 3, height: '100%', textAlign: 'center', borderRadius: 4, borderColor: '#d5e3c8', bgcolor: '#fdfbfb' }}>
                 <Avatar sx={{ bgcolor: 'rgba(239, 68, 68, 0.1)', color: 'error.main', mx: 'auto', mb: 2, width: 56, height: 56 }}>
                   <ErrorOutlineIcon fontSize="large" />
                 </Avatar>
                 <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, color: 'primary.dark' }}>
-                  Ibu Bapa Bukan Ustaz
+                  Ibu Bapa
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Mahu ajar sendiri di rumah tapi rasa segan dan tak yakin kerana bukan ustaz/ustazah yang mahir teori hukum tajwid.
+                  Mahu ajar sendiri di rumah tapi rasa segan dan tak yakin kerana bukan guru yang mahir teori hukum tajwid.
                 </Typography>
               </Paper>
             </Grid>
             <Grid size={{ xs: 12, sm: 4 }}>
-              <Paper variant="outlined" sx={{ p: 3, height: '100%', textAlign: 'center', borderRadius: 4, borderColor: '#ebdcd3', bgcolor: '#fdfbfb' }}>
+              <Paper variant="outlined" sx={{ p: 3, height: '100%', textAlign: 'center', borderRadius: 4, borderColor: '#d5e3c8', bgcolor: '#fdfbfb' }}>
                 <Avatar sx={{ bgcolor: 'rgba(239, 68, 68, 0.1)', color: 'error.main', mx: 'auto', mb: 2, width: 56, height: 56 }}>
                   <ErrorOutlineIcon fontSize="large" />
                 </Avatar>
@@ -547,7 +547,7 @@ function App() {
                 <Typography variant="body2" sx={{ color: '#d1d5db', mb: 2 }}>
                   Alat bantuan visual bersaiz poket yang mudah dicetak dan dibawa ke mana-mana. Membantu anak menghafal hukum tajwid asas dengan teknik santai & pantas.
                 </Typography>
-                <Typography variant="button" sx={{ px: 2, py: 0.5, borderRadius: 2, bgcolor: 'rgba(178, 127, 102, 0.25)', color: 'secondary.light', fontWeight: 'bold' }}>
+                <Typography variant="button" sx={{ px: 2, py: 0.5, borderRadius: 2, bgcolor: 'rgba(198, 231, 114, 0.25)', color: 'secondary.light', fontWeight: 'bold' }}>
                   Bernilai RM39 - PERCUMA
                 </Typography>
               </Paper>
@@ -595,7 +595,7 @@ function App() {
                 <Typography variant="body2" sx={{ color: '#d1d5db', mb: 2 }}>
                   Modul ringkas panduan ibu bapa untuk membetulkan kesalahan sebutan makhraj huruf dan dengung yang biasa anak lakukan semasa latihan.
                 </Typography>
-                <Typography variant="button" sx={{ px: 2, py: 0.5, borderRadius: 2, bgcolor: 'rgba(178, 127, 102, 0.25)', color: 'secondary.light', fontWeight: 'bold' }}>
+                <Typography variant="button" sx={{ px: 2, py: 0.5, borderRadius: 2, bgcolor: 'rgba(198, 231, 114, 0.25)', color: 'secondary.light', fontWeight: 'bold' }}>
                   Bernilai RM29 - PERCUMA
                 </Typography>
               </Paper>
@@ -613,15 +613,15 @@ function App() {
             sx={{ 
               p: { xs: 4, md: 6 }, 
               borderRadius: 5, 
-              border: '2px solid #b27f66', 
-              background: 'linear-gradient(135deg, #fdf6f2 0%, #fff 100%)',
+              border: '2px solid #66D47E', 
+              background: 'linear-gradient(135deg, #f2fcf4 0%, #fff 100%)',
               textAlign: 'center',
               position: 'relative',
               overflow: 'hidden'
             }}
           >
             {/* Background design */}
-            <Box sx={{ position: 'absolute', top: -30, right: -30, width: 120, height: 120, borderRadius: '50%', bgcolor: 'rgba(178, 127, 102, 0.05)' }} />
+            <Box sx={{ position: 'absolute', top: -30, right: -30, width: 120, height: 120, borderRadius: '50%', bgcolor: 'rgba(102, 212, 126, 0.05)' }} />
             
             <Avatar 
               sx={{ 
@@ -631,7 +631,7 @@ function App() {
                 height: 72, 
                 mx: 'auto', 
                 mb: 3,
-                boxShadow: '0 8px 20px rgba(178, 127, 102, 0.3)'
+                boxShadow: '0 8px 20px rgba(102, 212, 126, 0.3)'
               }}
             >
               <VerifiedUserIcon sx={{ fontSize: 40 }} />
@@ -660,9 +660,9 @@ function App() {
         sx={{ 
           py: 10, 
           bgcolor: 'background.paper', 
-          borderTop: '1px solid #ebdcd3',
-          borderBottom: '1px solid #ebdcd3',
-          background: 'linear-gradient(180deg, #ffffff 0%, #f7efe9 100%)'
+          borderTop: '1px solid #d5e3c8',
+          borderBottom: '1px solid #d5e3c8',
+          background: 'linear-gradient(180deg, #ffffff 0%, #f3faea 100%)'
         }}
       >
         <Container maxWidth="lg">

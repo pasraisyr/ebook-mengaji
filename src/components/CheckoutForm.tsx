@@ -135,14 +135,14 @@ Status: Pembayaran Berjaya (Rujukan Bil: ${billCode})`;
         angle: 60,
         spread: 55,
         origin: { x: 0 },
-        colors: ['#701a2c', '#b27f66', '#a0354e', '#d8b29c']
+        colors: ['#073835', '#66D47E', '#66D47E', '#C6E772']
       });
       confetti({
         particleCount: 5,
         angle: 120,
         spread: 55,
         origin: { x: 1 },
-        colors: ['#701a2c', '#b27f66', '#a0354e', '#d8b29c']
+        colors: ['#073835', '#66D47E', '#66D47E', '#C6E772']
       });
 
       if (Date.now() < end) {
@@ -191,7 +191,7 @@ Status: Pembayaran Berjaya (Rujukan Bil: ${billCode})`;
               borderRadius: 4,
               border: `2px solid ${theme.palette.primary.main}`,
               position: 'relative',
-              background: 'linear-gradient(135deg, #ffffff 0%, #faf6f3 100%)',
+              background: 'linear-gradient(135deg, #ffffff 0%, #fcfef5 100%)',
               boxShadow: '0 6px 15px rgba(0,0,0,0.03)'
             }}
           >
@@ -233,7 +233,7 @@ Status: Pembayaran Berjaya (Rujukan Bil: ${billCode})`;
                 {product.description}
               </Typography>
               
-              <Divider sx={{ my: 1.5, borderStyle: 'dashed', borderColor: 'rgba(112, 26, 44, 0.15)' }} />
+              <Divider sx={{ my: 1.5, borderStyle: 'dashed', borderColor: 'rgba(7, 56, 53, 0.15)' }} />
               
               <Typography variant="subtitle2" sx={{ fontWeight: 'bold', color: 'primary.main', mb: 1 }}>
                 Kandungan Pakej & Bonus:
@@ -259,7 +259,7 @@ Status: Pembayaran Berjaya (Rujukan Bil: ${billCode})`;
             <PersonIcon color="primary" /> 2. Butiran Penghantaran & Pembayaran
           </Typography>
           
-          <Card elevation={3} sx={{ borderRadius: 4, overflow: 'hidden', border: '1px solid #ebdcd3' }}>
+          <Card elevation={3} sx={{ borderRadius: 4, overflow: 'hidden', border: '1px solid #d5e3c8' }}>
             <Box sx={{ bgcolor: 'primary.main', color: '#fff', p: 2, textAlign: 'center' }}>
               <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
                 Jumlah Perlu Dibayar
